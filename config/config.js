@@ -18,7 +18,7 @@ module.exports = {
   production: {
     username: "test",
     password: process.env.SEQUELIZE_PASSWORD,
-    database: "ggbook_production",
+    database: "ggbook",
     host: "127.0.0.1",
     dialect: "mysql",
   },
