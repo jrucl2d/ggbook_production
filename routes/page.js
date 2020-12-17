@@ -55,7 +55,7 @@ router.get("/", csrfProtection, async (req, res, next) => {
     }
 
     res.render("main", {
-      title: "NodeBird",
+      title: "GGBOOK",
       twits: posts,
       isLiker,
       csrfToken: req.csrfToken(),
